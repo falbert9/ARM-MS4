@@ -1,0 +1,1313 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\ECE4534\Downloads\ARM-MS4\ARM-MS4\RTOSDemo\RTOSDemo.uvproj
+Project File Date:  04/05/2013
+
+<h2>Output:</h2>
+Build target 'WebServerELF'
+compiling list.c...
+compiling queue.c...
+compiling tasks.c...
+compiling port.c...
+compiling timers.c...
+compiling main.c...
+compiling vtUtilities.c...
+compiling ParTest.c...
+compiling LCDtask.c...
+compiling myTimers.c...
+compiling conductor.c...
+MainFiles/conductor.c: In function 'vConductorUpdateTask':
+MainFiles/conductor.c(62): warning: unused variable 'msgPtr'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(425): warning: unused variable 'val2'
+MainFiles/navigation.c(424): warning: unused variable 'val1'
+MainFiles/navigation.c(465): warning: unused variable 'val2'
+MainFiles/navigation.c(464): warning: unused variable 'val1'
+MainFiles/navigation.c(590): warning: "/*" within comment
+MainFiles/navigation.c(205): warning: unused variable 'c2'
+MainFiles/navigation.c(204): warning: unused variable 'c1'
+MainFiles/navigation.c(202): warning: unused variable 'curRaid'
+MainFiles/navigation.c(201): warning: unused variable 'curState'
+MainFiles/navigation.c(192): warning: unused variable 'testData'
+MainFiles/navigation.c(190): warning: unused variable 'mapData'
+MainFiles/navigation.c(178): warning: unused variable 'countMotor'
+MainFiles/navigation.c(174): warning: unused variable 'countStartMotor'
+compiling mapping.c...
+MainFiles/mapping.c: In function 'vMapUpdateTask':
+MainFiles/mapping.c(134): warning: unused variable 'lcdBuffer'
+MainFiles/mapping.c(131): warning: unused variable 'lcdData'
+compiling testing.c...
+MainFiles/testing.c: In function 'vTestUpdateTask':
+MainFiles/testing.c(990): warning: unused variable 'val1'
+MainFiles/testing.c(666): warning: unused variable 'countAcc'
+MainFiles/testing.c(663): warning: unused variable 'countStartAcc'
+compiling distance.c...
+compiling syscalls.c...
+compiling system_LPC17xx.c...
+compiling USB_CDC.c...
+compiling usbcontrol.c...
+compiling usbhw_lpc.c...
+compiling usbinit.c...
+compiling usbstdreq.c...
+compiling BlockQ.c...
+compiling blocktim.c...
+compiling flash.c...
+compiling GenQTest.c...
+compiling integer.c...
+compiling PollQ.c...
+compiling QPeek.c...
+compiling recmutex.c...
+compiling semtest.c...
+compiling emac.c...
+compiling httpd.c...
+compiling httpd-cgi.c...
+compiling httpd-fs.c...
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(536): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(536): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(538): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(538): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(540): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(540): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(542): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(542): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(544): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(544): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(546): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(546): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(548): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(548): warning: pointer targets in initialization differ in signedness
+compiling http-strings.c...
+compiling uIP_Task.c...
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/uIP_Task.c: In function 'vApplicationProcessFormInput':
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/uIP_Task.c(264): warning: implicit declaration of function 'printf'
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/uIP_Task.c(264): warning: incompatible implicit declaration of built-in function 'printf'
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/uIP_Task.c(269): warning: incompatible implicit declaration of built-in function 'printf'
+compiling psock.c...
+compiling timer.c...
+compiling uip_arp.c...
+compiling uip.c...
+compiling vtSSP.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_i2c.c...
+../NXPDrivers/source/lpc17xx_i2c.c: In function 'I2C_Init':
+../NXPDrivers/source/lpc17xx_i2c.c(213): warning: 'temp' may be used uninitialized in this function
+../NXPDrivers/source/lpc17xx_i2c.c: In function 'I2C_SlaveTransferData':
+../NXPDrivers/source/lpc17xx_i2c.c(985): warning: 'CodeStatus' may be used uninitialized in this function
+compiling lpc17xx_libcfg_default.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_ssp.c...
+../NXPDrivers/source/lpc17xx_ssp.c: In function 'SSP_ReadWrite':
+../NXPDrivers/source/lpc17xx_ssp.c(342): warning: 'rdata8' may be used uninitialized in this function
+../NXPDrivers/source/lpc17xx_ssp.c(343): warning: 'wdata8' may be used uninitialized in this function
+../NXPDrivers/source/lpc17xx_ssp.c(344): warning: 'rdata16' may be used uninitialized in this function
+../NXPDrivers/source/lpc17xx_ssp.c(345): warning: 'wdata16' may be used uninitialized in this function
+compiling vtI2C.c...
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 42 Warning(s).
+Build target 'WebServerELF'
+compiling uIP_Task.c...
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 0 Warning(s).
+Build target 'WebServerELF'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Internal DLL Error
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Internal DLL Error
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(426): warning: unused variable 'val2'
+MainFiles/navigation.c(425): warning: unused variable 'val1'
+MainFiles/navigation.c(466): warning: unused variable 'val2'
+MainFiles/navigation.c(465): warning: unused variable 'val1'
+MainFiles/navigation.c(205): warning: unused variable 'c2'
+MainFiles/navigation.c(204): warning: unused variable 'c1'
+MainFiles/navigation.c(202): warning: unused variable 'curRaid'
+MainFiles/navigation.c(201): warning: unused variable 'curState'
+MainFiles/navigation.c(192): warning: unused variable 'testData'
+MainFiles/navigation.c(190): warning: unused variable 'mapData'
+MainFiles/navigation.c(178): warning: unused variable 'countMotor'
+MainFiles/navigation.c(174): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(426): warning: unused variable 'val2'
+MainFiles/navigation.c(425): warning: unused variable 'val1'
+MainFiles/navigation.c(466): warning: unused variable 'val2'
+MainFiles/navigation.c(465): warning: unused variable 'val1'
+MainFiles/navigation.c(591): warning: "/*" within comment
+MainFiles/navigation.c(205): warning: unused variable 'c2'
+MainFiles/navigation.c(204): warning: unused variable 'c1'
+MainFiles/navigation.c(202): warning: unused variable 'curRaid'
+MainFiles/navigation.c(201): warning: unused variable 'curState'
+MainFiles/navigation.c(192): warning: unused variable 'testData'
+MainFiles/navigation.c(190): warning: unused variable 'mapData'
+MainFiles/navigation.c(178): warning: unused variable 'countMotor'
+MainFiles/navigation.c(174): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 13 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(426): warning: unused variable 'val2'
+MainFiles/navigation.c(425): warning: unused variable 'val1'
+MainFiles/navigation.c(466): warning: unused variable 'val2'
+MainFiles/navigation.c(465): warning: unused variable 'val1'
+MainFiles/navigation.c(591): warning: "/*" within comment
+MainFiles/navigation.c(205): warning: unused variable 'c2'
+MainFiles/navigation.c(204): warning: unused variable 'c1'
+MainFiles/navigation.c(202): warning: unused variable 'curRaid'
+MainFiles/navigation.c(201): warning: unused variable 'curState'
+MainFiles/navigation.c(192): warning: unused variable 'testData'
+MainFiles/navigation.c(190): warning: unused variable 'mapData'
+MainFiles/navigation.c(178): warning: unused variable 'countMotor'
+MainFiles/navigation.c(174): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 13 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(426): warning: unused variable 'val2'
+MainFiles/navigation.c(425): warning: unused variable 'val1'
+MainFiles/navigation.c(466): warning: unused variable 'val2'
+MainFiles/navigation.c(465): warning: unused variable 'val1'
+MainFiles/navigation.c(591): warning: "/*" within comment
+MainFiles/navigation.c(205): warning: unused variable 'c2'
+MainFiles/navigation.c(204): warning: unused variable 'c1'
+MainFiles/navigation.c(202): warning: unused variable 'curRaid'
+MainFiles/navigation.c(201): warning: unused variable 'curState'
+MainFiles/navigation.c(192): warning: unused variable 'testData'
+MainFiles/navigation.c(190): warning: unused variable 'mapData'
+MainFiles/navigation.c(178): warning: unused variable 'countMotor'
+MainFiles/navigation.c(174): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 13 Warning(s).
+Build target 'WebServerELF'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling myTimers.c...
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(426): warning: unused variable 'val2'
+MainFiles/navigation.c(425): warning: unused variable 'val1'
+MainFiles/navigation.c(466): warning: unused variable 'val2'
+MainFiles/navigation.c(465): warning: unused variable 'val1'
+MainFiles/navigation.c(591): warning: "/*" within comment
+MainFiles/navigation.c(205): warning: unused variable 'c2'
+MainFiles/navigation.c(204): warning: unused variable 'c1'
+MainFiles/navigation.c(202): warning: unused variable 'curRaid'
+MainFiles/navigation.c(201): warning: unused variable 'curState'
+MainFiles/navigation.c(192): warning: unused variable 'testData'
+MainFiles/navigation.c(190): warning: unused variable 'mapData'
+MainFiles/navigation.c(178): warning: unused variable 'countMotor'
+MainFiles/navigation.c(174): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 13 Warning(s).
+Build target 'WebServerELF'
+compiling myTimers.c...
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling myTimers.c...
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 0 Warning(s).
+Build target 'WebServerELF'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling myTimers.c...
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(426): warning: unused variable 'val2'
+MainFiles/navigation.c(425): warning: unused variable 'val1'
+MainFiles/navigation.c(466): warning: unused variable 'val2'
+MainFiles/navigation.c(465): warning: unused variable 'val1'
+MainFiles/navigation.c(591): warning: "/*" within comment
+MainFiles/navigation.c(205): warning: unused variable 'c2'
+MainFiles/navigation.c(204): warning: unused variable 'c1'
+MainFiles/navigation.c(202): warning: unused variable 'curRaid'
+MainFiles/navigation.c(201): warning: unused variable 'curState'
+MainFiles/navigation.c(192): warning: unused variable 'testData'
+MainFiles/navigation.c(190): warning: unused variable 'mapData'
+MainFiles/navigation.c(178): warning: unused variable 'countMotor'
+MainFiles/navigation.c(174): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 13 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(426): warning: unused variable 'val2'
+MainFiles/navigation.c(425): warning: unused variable 'val1'
+MainFiles/navigation.c(466): warning: unused variable 'val2'
+MainFiles/navigation.c(465): warning: unused variable 'val1'
+MainFiles/navigation.c(591): warning: "/*" within comment
+MainFiles/navigation.c(205): warning: unused variable 'c2'
+MainFiles/navigation.c(204): warning: unused variable 'c1'
+MainFiles/navigation.c(202): warning: unused variable 'curRaid'
+MainFiles/navigation.c(201): warning: unused variable 'curState'
+MainFiles/navigation.c(192): warning: unused variable 'testData'
+MainFiles/navigation.c(190): warning: unused variable 'mapData'
+MainFiles/navigation.c(178): warning: unused variable 'countMotor'
+MainFiles/navigation.c(174): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 13 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(453): error: 'val' undeclared (first use in this function)
+MainFiles/navigation.c(453): error: note: each undeclared identifier is reported only once for each function it appears in
+MainFiles/navigation.c(426): warning: unused variable 'val2'
+MainFiles/navigation.c(425): warning: unused variable 'val1'
+MainFiles/navigation.c(492): warning: unused variable 'val2'
+MainFiles/navigation.c(491): warning: unused variable 'val1'
+MainFiles/navigation.c(617): warning: "/*" within comment
+MainFiles/navigation.c(205): warning: unused variable 'c2'
+MainFiles/navigation.c(204): warning: unused variable 'c1'
+MainFiles/navigation.c(202): warning: unused variable 'curRaid'
+MainFiles/navigation.c(201): warning: unused variable 'curState'
+MainFiles/navigation.c(192): warning: unused variable 'testData'
+MainFiles/navigation.c(190): warning: unused variable 'mapData'
+MainFiles/navigation.c(178): warning: unused variable 'countMotor'
+MainFiles/navigation.c(174): warning: unused variable 'countStartMotor'
+Target not created
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(434): warning: unused variable 'value'
+MainFiles/navigation.c(501): warning: unused variable 'val2'
+MainFiles/navigation.c(500): warning: unused variable 'val1'
+MainFiles/navigation.c(626): warning: "/*" within comment
+MainFiles/navigation.c(205): warning: unused variable 'c2'
+MainFiles/navigation.c(204): warning: unused variable 'c1'
+MainFiles/navigation.c(202): warning: unused variable 'curRaid'
+MainFiles/navigation.c(201): warning: unused variable 'curState'
+MainFiles/navigation.c(192): warning: unused variable 'testData'
+MainFiles/navigation.c(190): warning: unused variable 'mapData'
+MainFiles/navigation.c(178): warning: unused variable 'countMotor'
+MainFiles/navigation.c(174): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(435): warning: unused variable 'value'
+MainFiles/navigation.c(502): warning: unused variable 'val2'
+MainFiles/navigation.c(501): warning: unused variable 'val1'
+MainFiles/navigation.c(627): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(443): warning: unused variable 'value'
+MainFiles/navigation.c(515): warning: unused variable 'val2'
+MainFiles/navigation.c(514): warning: unused variable 'val1'
+MainFiles/navigation.c(640): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(448): warning: unused variable 'value'
+MainFiles/navigation.c(524): warning: unused variable 'val2'
+MainFiles/navigation.c(523): warning: unused variable 'val1'
+MainFiles/navigation.c(649): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(448): warning: unused variable 'value'
+MainFiles/navigation.c(524): warning: unused variable 'val2'
+MainFiles/navigation.c(523): warning: unused variable 'val1'
+MainFiles/navigation.c(649): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(439): warning: unused variable 'val1'
+MainFiles/navigation.c(516): warning: unused variable 'val2'
+MainFiles/navigation.c(515): warning: unused variable 'val1'
+MainFiles/navigation.c(641): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(438): warning: unused variable 'val1'
+MainFiles/navigation.c(519): warning: unused variable 'val2'
+MainFiles/navigation.c(518): warning: unused variable 'val1'
+MainFiles/navigation.c(644): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Build target 'WebServerELF'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 0 Warning(s).
+Build target 'WebServerELF'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(519): warning: unused variable 'val2'
+MainFiles/navigation.c(518): warning: unused variable 'val1'
+MainFiles/navigation.c(644): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 11 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(438): warning: unused variable 'val1'
+MainFiles/navigation.c(519): warning: unused variable 'val2'
+MainFiles/navigation.c(518): warning: unused variable 'val1'
+MainFiles/navigation.c(644): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(438): warning: unused variable 'val1'
+MainFiles/navigation.c(519): warning: unused variable 'val2'
+MainFiles/navigation.c(518): warning: unused variable 'val1'
+MainFiles/navigation.c(644): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(438): warning: unused variable 'val1'
+MainFiles/navigation.c(517): warning: unused variable 'val2'
+MainFiles/navigation.c(516): warning: unused variable 'val1'
+MainFiles/navigation.c(642): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(438): warning: unused variable 'val1'
+MainFiles/navigation.c(517): warning: unused variable 'val2'
+MainFiles/navigation.c(516): warning: unused variable 'val1'
+MainFiles/navigation.c(642): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(438): warning: unused variable 'val1'
+MainFiles/navigation.c(517): warning: unused variable 'val2'
+MainFiles/navigation.c(516): warning: unused variable 'val1'
+MainFiles/navigation.c(642): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(438): warning: unused variable 'val1'
+MainFiles/navigation.c(520): warning: unused variable 'val2'
+MainFiles/navigation.c(519): warning: unused variable 'val1'
+MainFiles/navigation.c(645): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(438): warning: unused variable 'val1'
+MainFiles/navigation.c(520): warning: unused variable 'val2'
+MainFiles/navigation.c(519): warning: unused variable 'val1'
+MainFiles/navigation.c(645): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(438): warning: unused variable 'val1'
+MainFiles/navigation.c(520): warning: unused variable 'val2'
+MainFiles/navigation.c(519): warning: unused variable 'val1'
+MainFiles/navigation.c(645): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(438): warning: unused variable 'val1'
+MainFiles/navigation.c(520): warning: unused variable 'val2'
+MainFiles/navigation.c(519): warning: unused variable 'val1'
+MainFiles/navigation.c(645): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(438): warning: unused variable 'val1'
+MainFiles/navigation.c(520): warning: unused variable 'val2'
+MainFiles/navigation.c(519): warning: unused variable 'val1'
+MainFiles/navigation.c(645): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(438): warning: unused variable 'val1'
+MainFiles/navigation.c(520): warning: unused variable 'val2'
+MainFiles/navigation.c(519): warning: unused variable 'val1'
+MainFiles/navigation.c(645): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(438): warning: unused variable 'val1'
+MainFiles/navigation.c(520): warning: unused variable 'val2'
+MainFiles/navigation.c(519): warning: unused variable 'val1'
+MainFiles/navigation.c(645): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(438): warning: unused variable 'val1'
+MainFiles/navigation.c(520): warning: unused variable 'val2'
+MainFiles/navigation.c(519): warning: unused variable 'val1'
+MainFiles/navigation.c(645): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(438): warning: unused variable 'val1'
+MainFiles/navigation.c(520): warning: unused variable 'val2'
+MainFiles/navigation.c(519): warning: unused variable 'val1'
+MainFiles/navigation.c(645): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(438): warning: unused variable 'val1'
+MainFiles/navigation.c(520): warning: unused variable 'val2'
+MainFiles/navigation.c(519): warning: unused variable 'val1'
+MainFiles/navigation.c(645): warning: "/*" within comment
+MainFiles/navigation.c(206): warning: unused variable 'c2'
+MainFiles/navigation.c(205): warning: unused variable 'c1'
+MainFiles/navigation.c(203): warning: unused variable 'curRaid'
+MainFiles/navigation.c(202): warning: unused variable 'curState'
+MainFiles/navigation.c(193): warning: unused variable 'testData'
+MainFiles/navigation.c(191): warning: unused variable 'mapData'
+MainFiles/navigation.c(179): warning: unused variable 'countMotor'
+MainFiles/navigation.c(175): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(449): warning: unused variable 'val1'
+MainFiles/navigation.c(531): warning: unused variable 'val2'
+MainFiles/navigation.c(530): warning: unused variable 'val1'
+MainFiles/navigation.c(656): warning: "/*" within comment
+MainFiles/navigation.c(210): warning: unused variable 'c2'
+MainFiles/navigation.c(209): warning: unused variable 'c1'
+MainFiles/navigation.c(207): warning: unused variable 'curRaid'
+MainFiles/navigation.c(206): warning: unused variable 'curState'
+MainFiles/navigation.c(197): warning: unused variable 'testData'
+MainFiles/navigation.c(195): warning: unused variable 'mapData'
+MainFiles/navigation.c(183): warning: unused variable 'countMotor'
+MainFiles/navigation.c(179): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(449): warning: unused variable 'val1'
+MainFiles/navigation.c(531): warning: unused variable 'val2'
+MainFiles/navigation.c(530): warning: unused variable 'val1'
+MainFiles/navigation.c(656): warning: "/*" within comment
+MainFiles/navigation.c(210): warning: unused variable 'c2'
+MainFiles/navigation.c(209): warning: unused variable 'c1'
+MainFiles/navigation.c(207): warning: unused variable 'curRaid'
+MainFiles/navigation.c(206): warning: unused variable 'curState'
+MainFiles/navigation.c(197): warning: unused variable 'testData'
+MainFiles/navigation.c(195): warning: unused variable 'mapData'
+MainFiles/navigation.c(183): warning: unused variable 'countMotor'
+MainFiles/navigation.c(179): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling distance.c...
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(455): warning: unused variable 'val1'
+MainFiles/navigation.c(537): warning: unused variable 'val2'
+MainFiles/navigation.c(536): warning: unused variable 'val1'
+MainFiles/navigation.c(662): warning: "/*" within comment
+MainFiles/navigation.c(210): warning: unused variable 'c2'
+MainFiles/navigation.c(209): warning: unused variable 'c1'
+MainFiles/navigation.c(207): warning: unused variable 'curRaid'
+MainFiles/navigation.c(206): warning: unused variable 'curState'
+MainFiles/navigation.c(197): warning: unused variable 'testData'
+MainFiles/navigation.c(195): warning: unused variable 'mapData'
+MainFiles/navigation.c(183): warning: unused variable 'countMotor'
+MainFiles/navigation.c(179): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling distance.c...
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling distance.c...
+MainFiles/distance.c: In function 'vDistanceUpdateTask':
+MainFiles/distance.c(398): error: 'RightM' undeclared (first use in this function)
+MainFiles/distance.c(398): error: note: each undeclared identifier is reported only once for each function it appears in
+Target not created
+Build target 'WebServerELF'
+compiling distance.c...
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling distance.c...
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 0 Warning(s).
+Build target 'WebServerELF'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(455): warning: unused variable 'val1'
+MainFiles/navigation.c(537): warning: unused variable 'val2'
+MainFiles/navigation.c(536): warning: unused variable 'val1'
+MainFiles/navigation.c(662): warning: "/*" within comment
+MainFiles/navigation.c(210): warning: unused variable 'c2'
+MainFiles/navigation.c(209): warning: unused variable 'c1'
+MainFiles/navigation.c(207): warning: unused variable 'curRaid'
+MainFiles/navigation.c(206): warning: unused variable 'curState'
+MainFiles/navigation.c(197): warning: unused variable 'testData'
+MainFiles/navigation.c(195): warning: unused variable 'mapData'
+MainFiles/navigation.c(183): warning: unused variable 'countMotor'
+MainFiles/navigation.c(179): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(455): warning: unused variable 'val1'
+MainFiles/navigation.c(537): warning: unused variable 'val2'
+MainFiles/navigation.c(536): warning: unused variable 'val1'
+MainFiles/navigation.c(662): warning: "/*" within comment
+MainFiles/navigation.c(210): warning: unused variable 'c2'
+MainFiles/navigation.c(209): warning: unused variable 'c1'
+MainFiles/navigation.c(207): warning: unused variable 'curRaid'
+MainFiles/navigation.c(206): warning: unused variable 'curState'
+MainFiles/navigation.c(197): warning: unused variable 'testData'
+MainFiles/navigation.c(195): warning: unused variable 'mapData'
+MainFiles/navigation.c(183): warning: unused variable 'countMotor'
+MainFiles/navigation.c(179): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(455): warning: unused variable 'val1'
+MainFiles/navigation.c(537): warning: unused variable 'val2'
+MainFiles/navigation.c(536): warning: unused variable 'val1'
+MainFiles/navigation.c(662): warning: "/*" within comment
+MainFiles/navigation.c(210): warning: unused variable 'c2'
+MainFiles/navigation.c(209): warning: unused variable 'c1'
+MainFiles/navigation.c(207): warning: unused variable 'curRaid'
+MainFiles/navigation.c(206): warning: unused variable 'curState'
+MainFiles/navigation.c(197): warning: unused variable 'testData'
+MainFiles/navigation.c(195): warning: unused variable 'mapData'
+MainFiles/navigation.c(183): warning: unused variable 'countMotor'
+MainFiles/navigation.c(179): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 12 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling distance.c...
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 0 Warning(s).
+Build target 'WebServerELF'
+compiling conductor.c...
+MainFiles/conductor.c: In function 'vConductorUpdateTask':
+MainFiles/conductor.c(62): warning: unused variable 'msgPtr'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(455): warning: unused variable 'val1'
+MainFiles/navigation.c(537): warning: unused variable 'val2'
+MainFiles/navigation.c(536): warning: unused variable 'val1'
+MainFiles/navigation.c(662): warning: "/*" within comment
+MainFiles/navigation.c(210): warning: unused variable 'c2'
+MainFiles/navigation.c(209): warning: unused variable 'c1'
+MainFiles/navigation.c(207): warning: unused variable 'curRaid'
+MainFiles/navigation.c(206): warning: unused variable 'curState'
+MainFiles/navigation.c(197): warning: unused variable 'testData'
+MainFiles/navigation.c(195): warning: unused variable 'mapData'
+MainFiles/navigation.c(183): warning: unused variable 'countMotor'
+MainFiles/navigation.c(179): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 13 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(455): warning: unused variable 'val1'
+MainFiles/navigation.c(662): warning: "/*" within comment
+MainFiles/navigation.c(210): warning: unused variable 'c2'
+MainFiles/navigation.c(209): warning: unused variable 'c1'
+MainFiles/navigation.c(207): warning: unused variable 'curRaid'
+MainFiles/navigation.c(206): warning: unused variable 'curState'
+MainFiles/navigation.c(197): warning: unused variable 'testData'
+MainFiles/navigation.c(195): warning: unused variable 'mapData'
+MainFiles/navigation.c(183): warning: unused variable 'countMotor'
+MainFiles/navigation.c(179): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling main.c...
+compiling conductor.c...
+MainFiles/conductor.c: In function 'vConductorUpdateTask':
+MainFiles/conductor.c(62): warning: unused variable 'msgPtr'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(460): warning: unused variable 'val1'
+MainFiles/navigation.c(667): warning: "/*" within comment
+MainFiles/navigation.c(215): warning: unused variable 'c2'
+MainFiles/navigation.c(214): warning: unused variable 'c1'
+MainFiles/navigation.c(212): warning: unused variable 'curRaid'
+MainFiles/navigation.c(211): warning: unused variable 'curState'
+MainFiles/navigation.c(202): warning: unused variable 'testData'
+MainFiles/navigation.c(200): warning: unused variable 'mapData'
+MainFiles/navigation.c(188): warning: unused variable 'countMotor'
+MainFiles/navigation.c(184): warning: unused variable 'countStartMotor'
+compiling mapping.c...
+MainFiles/mapping.c: In function 'vMapUpdateTask':
+MainFiles/mapping.c(134): warning: unused variable 'lcdBuffer'
+MainFiles/mapping.c(131): warning: unused variable 'lcdData'
+compiling uIP_Task.c...
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 13 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 0 Warning(s).
+Clean started: Project: 'RTOSDemo'
+   deleting intermediate output files for target 'WebServerELF'
+Build target 'WebServerELF'
+compiling list.c...
+compiling queue.c...
+compiling tasks.c...
+compiling port.c...
+compiling timers.c...
+compiling main.c...
+compiling vtUtilities.c...
+compiling ParTest.c...
+compiling LCDtask.c...
+compiling myTimers.c...
+compiling conductor.c...
+MainFiles/conductor.c: In function 'vConductorUpdateTask':
+MainFiles/conductor.c(62): warning: unused variable 'msgPtr'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(460): warning: unused variable 'val1'
+MainFiles/navigation.c(667): warning: "/*" within comment
+MainFiles/navigation.c(215): warning: unused variable 'c2'
+MainFiles/navigation.c(214): warning: unused variable 'c1'
+MainFiles/navigation.c(212): warning: unused variable 'curRaid'
+MainFiles/navigation.c(211): warning: unused variable 'curState'
+MainFiles/navigation.c(202): warning: unused variable 'testData'
+MainFiles/navigation.c(200): warning: unused variable 'mapData'
+MainFiles/navigation.c(188): warning: unused variable 'countMotor'
+MainFiles/navigation.c(184): warning: unused variable 'countStartMotor'
+compiling mapping.c...
+MainFiles/mapping.c: In function 'vMapUpdateTask':
+MainFiles/mapping.c(134): warning: unused variable 'lcdBuffer'
+MainFiles/mapping.c(131): warning: unused variable 'lcdData'
+compiling testing.c...
+MainFiles/testing.c: In function 'vTestUpdateTask':
+MainFiles/testing.c(990): warning: unused variable 'val1'
+MainFiles/testing.c(666): warning: unused variable 'countAcc'
+MainFiles/testing.c(663): warning: unused variable 'countStartAcc'
+compiling distance.c...
+compiling syscalls.c...
+compiling system_LPC17xx.c...
+assembling startup_LPC17xx.s...
+compiling USB_CDC.c...
+compiling usbcontrol.c...
+compiling usbhw_lpc.c...
+compiling usbinit.c...
+compiling usbstdreq.c...
+compiling BlockQ.c...
+compiling blocktim.c...
+compiling flash.c...
+compiling GenQTest.c...
+compiling integer.c...
+compiling PollQ.c...
+compiling QPeek.c...
+compiling recmutex.c...
+compiling semtest.c...
+compiling emac.c...
+compiling httpd.c...
+compiling httpd-cgi.c...
+compiling httpd-fs.c...
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(536): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(536): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(538): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(538): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(540): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(540): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(542): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(542): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(544): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(544): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(546): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(546): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(548): warning: pointer targets in initialization differ in signedness
+../FreeRTOS/Demo/CORTEX_LPC1768_GCC_Rowley/webserver/httpd-fsdata.c(548): warning: pointer targets in initialization differ in signedness
+compiling http-strings.c...
+compiling uIP_Task.c...
+compiling psock.c...
+compiling timer.c...
+compiling uip_arp.c...
+compiling uip.c...
+compiling vtSSP.c...
+compiling GLCD_SPI_LPC1700.c...
+compiling lpc17xx_clkpwr.c...
+compiling lpc17xx_i2c.c...
+../NXPDrivers/source/lpc17xx_i2c.c: In function 'I2C_Init':
+../NXPDrivers/source/lpc17xx_i2c.c(213): warning: 'temp' may be used uninitialized in this function
+../NXPDrivers/source/lpc17xx_i2c.c: In function 'I2C_SlaveTransferData':
+../NXPDrivers/source/lpc17xx_i2c.c(985): warning: 'CodeStatus' may be used uninitialized in this function
+compiling lpc17xx_libcfg_default.c...
+compiling lpc17xx_pinsel.c...
+compiling lpc17xx_gpio.c...
+compiling lpc17xx_ssp.c...
+../NXPDrivers/source/lpc17xx_ssp.c: In function 'SSP_ReadWrite':
+../NXPDrivers/source/lpc17xx_ssp.c(342): warning: 'rdata8' may be used uninitialized in this function
+../NXPDrivers/source/lpc17xx_ssp.c(343): warning: 'wdata8' may be used uninitialized in this function
+../NXPDrivers/source/lpc17xx_ssp.c(344): warning: 'rdata16' may be used uninitialized in this function
+../NXPDrivers/source/lpc17xx_ssp.c(345): warning: 'wdata16' may be used uninitialized in this function
+compiling vtI2C.c...
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 36 Warning(s).
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'stop':
+MainFiles/navigation.c(140): error: 'lcdBuffer' undeclared (first use in this function)
+MainFiles/navigation.c(140): error: note: each undeclared identifier is reported only once for each function it appears in
+MainFiles/navigation.c(141): error: 'lcdData' undeclared (first use in this function)
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(466): warning: unused variable 'val1'
+MainFiles/navigation.c(673): warning: "/*" within comment
+MainFiles/navigation.c(221): warning: unused variable 'c2'
+MainFiles/navigation.c(220): warning: unused variable 'c1'
+MainFiles/navigation.c(218): warning: unused variable 'curRaid'
+MainFiles/navigation.c(217): warning: unused variable 'curState'
+MainFiles/navigation.c(208): warning: unused variable 'testData'
+MainFiles/navigation.c(206): warning: unused variable 'mapData'
+MainFiles/navigation.c(194): warning: unused variable 'countMotor'
+MainFiles/navigation.c(190): warning: unused variable 'countStartMotor'
+Target not created
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(460): warning: unused variable 'val1'
+MainFiles/navigation.c(681): warning: "/*" within comment
+MainFiles/navigation.c(215): warning: unused variable 'c2'
+MainFiles/navigation.c(214): warning: unused variable 'c1'
+MainFiles/navigation.c(212): warning: unused variable 'curRaid'
+MainFiles/navigation.c(211): warning: unused variable 'curState'
+MainFiles/navigation.c(202): warning: unused variable 'testData'
+MainFiles/navigation.c(200): warning: unused variable 'mapData'
+MainFiles/navigation.c(188): warning: unused variable 'countMotor'
+MainFiles/navigation.c(184): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(460): warning: unused variable 'val1'
+MainFiles/navigation.c(687): warning: "/*" within comment
+MainFiles/navigation.c(215): warning: unused variable 'c2'
+MainFiles/navigation.c(214): warning: unused variable 'c1'
+MainFiles/navigation.c(212): warning: unused variable 'curRaid'
+MainFiles/navigation.c(211): warning: unused variable 'curState'
+MainFiles/navigation.c(202): warning: unused variable 'testData'
+MainFiles/navigation.c(200): warning: unused variable 'mapData'
+MainFiles/navigation.c(188): warning: unused variable 'countMotor'
+MainFiles/navigation.c(184): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 10 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c(176): warning: large integer implicitly truncated to unsigned type
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(460): warning: unused variable 'val1'
+MainFiles/navigation.c(687): warning: "/*" within comment
+MainFiles/navigation.c(215): warning: unused variable 'c2'
+MainFiles/navigation.c(214): warning: unused variable 'c1'
+MainFiles/navigation.c(212): warning: unused variable 'curRaid'
+MainFiles/navigation.c(211): warning: unused variable 'curState'
+MainFiles/navigation.c(202): warning: unused variable 'testData'
+MainFiles/navigation.c(200): warning: unused variable 'mapData'
+MainFiles/navigation.c(188): warning: unused variable 'countMotor'
+MainFiles/navigation.c(184): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 11 Warning(s).
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c(177): warning: large integer implicitly truncated to unsigned type
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(461): warning: unused variable 'val1'
+MainFiles/navigation.c(688): warning: "/*" within comment
+MainFiles/navigation.c(216): warning: unused variable 'c2'
+MainFiles/navigation.c(215): warning: unused variable 'c1'
+MainFiles/navigation.c(213): warning: unused variable 'curRaid'
+MainFiles/navigation.c(212): warning: unused variable 'curState'
+MainFiles/navigation.c(203): warning: unused variable 'testData'
+MainFiles/navigation.c(201): warning: unused variable 'mapData'
+MainFiles/navigation.c(189): warning: unused variable 'countMotor'
+MainFiles/navigation.c(185): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 11 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c(177): warning: large integer implicitly truncated to unsigned type
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(465): warning: unused variable 'val1'
+MainFiles/navigation.c(692): warning: "/*" within comment
+MainFiles/navigation.c(216): warning: unused variable 'c2'
+MainFiles/navigation.c(215): warning: unused variable 'c1'
+MainFiles/navigation.c(213): warning: unused variable 'curRaid'
+MainFiles/navigation.c(212): warning: unused variable 'curState'
+MainFiles/navigation.c(203): warning: unused variable 'testData'
+MainFiles/navigation.c(201): warning: unused variable 'mapData'
+MainFiles/navigation.c(189): warning: unused variable 'countMotor'
+MainFiles/navigation.c(185): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 11 Warning(s).
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c(177): warning: large integer implicitly truncated to unsigned type
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(468): warning: unused variable 'val1'
+MainFiles/navigation.c(695): warning: "/*" within comment
+MainFiles/navigation.c(216): warning: unused variable 'c2'
+MainFiles/navigation.c(215): warning: unused variable 'c1'
+MainFiles/navigation.c(213): warning: unused variable 'curRaid'
+MainFiles/navigation.c(212): warning: unused variable 'curState'
+MainFiles/navigation.c(203): warning: unused variable 'testData'
+MainFiles/navigation.c(201): warning: unused variable 'mapData'
+MainFiles/navigation.c(189): warning: unused variable 'countMotor'
+MainFiles/navigation.c(185): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 11 Warning(s).
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c(177): warning: large integer implicitly truncated to unsigned type
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(468): warning: unused variable 'val1'
+MainFiles/navigation.c(695): warning: "/*" within comment
+MainFiles/navigation.c(216): warning: unused variable 'c2'
+MainFiles/navigation.c(215): warning: unused variable 'c1'
+MainFiles/navigation.c(213): warning: unused variable 'curRaid'
+MainFiles/navigation.c(212): warning: unused variable 'curState'
+MainFiles/navigation.c(203): warning: unused variable 'testData'
+MainFiles/navigation.c(201): warning: unused variable 'mapData'
+MainFiles/navigation.c(189): warning: unused variable 'countMotor'
+MainFiles/navigation.c(185): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 11 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling navigation.c...
+MainFiles/navigation.c(177): warning: large integer implicitly truncated to unsigned type
+MainFiles/navigation.c: In function 'vNavUpdateTask':
+MainFiles/navigation.c(468): warning: unused variable 'val1'
+MainFiles/navigation.c(695): warning: "/*" within comment
+MainFiles/navigation.c(216): warning: unused variable 'c2'
+MainFiles/navigation.c(215): warning: unused variable 'c1'
+MainFiles/navigation.c(213): warning: unused variable 'curRaid'
+MainFiles/navigation.c(212): warning: unused variable 'curState'
+MainFiles/navigation.c(203): warning: unused variable 'testData'
+MainFiles/navigation.c(201): warning: unused variable 'mapData'
+MainFiles/navigation.c(189): warning: unused variable 'countMotor'
+MainFiles/navigation.c(185): warning: unused variable 'countStartMotor'
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 11 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling distance.c...
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
+Build target 'WebServerELF'
+compiling distance.c...
+linking...
+".\ObjectFiles\RTOSDemo.elf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\ECE4534\\Downloads\\ARM-MS4\\ARM-MS4\\RTOSDemo\\ObjectFiles\\RTOSDemo.ELF" 
+Full Chip Erase Done.
+Programming Done.
+Verify OK.
